@@ -1,0 +1,79 @@
+body, html{
+    margin:0;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 50px;
+}
+h1{color:white;}
+body{
+    margin-top: -10px;
+    display: flex;
+    gap:100px;
+    justify-content: center;
+
+}
+.game{
+    display: flex;
+    gap:100px;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+
+}
+button{
+    padding:15px;
+    border-radius: 15px;
+    
+    background-color: lightgray;
+
+}
+input{
+    
+    width: 80px;
+    height:80px;
+}
+.container{
+    margin-top: 100px;
+    display:flex;
+    align-self: center;
+    flex-direction: column;
+    flex:auto;
+    justify-content:stretch;
+    align-items: stretch;
+    width:600px;
+    height: 600px;
+    background-color: grey;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex:1;
+    align-items: stretch;
+    justify-content: stretch;
+    margin:0;
+    padding:0px;
+}
+.menu{
+    background-color: rgb(143, 140, 134);
+    border-radius: 15px;
+    padding:10px;
+}
+.sixteen-box{
+    background-color: white;
+    border-style:dashed;
+    border-color: black;
+    border-width: 0.1mm;
+    width: auto;
+    height:auto;
+    flex:1;
+
+}
